@@ -5,4 +5,4 @@ import ReactDOM from 'react-dom'
 //引入App
 import App from './App'
 
-ReactDOM.render(<Ap/>, document.getElementById('root'))
+ReactDOM.render(<App/>, document.getElementById('root'))
