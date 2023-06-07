@@ -1,15 +1,21 @@
 import React, {Component} from 'react';
-import './index.css';
+import {Link} from "react-router-dom";
+import "./index.css"
 
 class Header extends Component {
   render() {
     return (
         <header className="header">
-          <h1 className="title">My Website</h1>
-          <div className="buttons">
-            <button className="button">Button 1</button>
-            <button className="button">Button 2</button>
-          </div>
+          <nav className="nav">
+            <ul className="nav__list">
+              <li className="nav__item">
+                <Link to="/one">计算器</Link>
+              </li>
+              <li className="nav__item">
+                <Link to="/two">航班地图</Link>
+              </li>
+            </ul>
+          </nav>
         </header>
     );
   }

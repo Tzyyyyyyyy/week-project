@@ -1,18 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './index.css';
 
-class Footer extends Component {
+class Footer extends React.Component {
   render() {
     return (
         <footer className="footer">
-          <div className="copyright">
-            © 2023 My Website. All rights reserved.
-          </div>
-          <div className="links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-            <a href="#">Contact Us</a>
-          </div>
+          <p className="footer__text">This is the footer</p>
         </footer>
     );
   }
