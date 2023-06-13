@@ -1,0 +1,56 @@
+*{
+  border-radius: 15px;
+}
+.main{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.left{
+  grid-column: 1;
+  text-align: center;
+  position: relative;
+}
+.middle{
+  grid-column: 2;
+  text-align: center;
+  position: relative;
+  color: white;
+  background-color: #EC5946;
+  background-image: url('../../assets/rocket.jpg');
+  background-repeat: no-repeat;
+  background-position-x: 41%;
+}
+.right{
+  grid-column: 3;
+  text-align: center;
+  position: relative;
+}
+p{
+  padding-top: 10px;
+  font-size: 12px;
+}
+.p_top{
+  font-size: 20px;
+  margin-top: 100px;
+}
+.button_1, .button_2{
+  position: absolute;
+  bottom: 60px;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+  color: #695457;
+  background-color: white;
+}
+.button_2{
+  color: white;
+  background-color: rgb(253,197,67);
+  border: rgb(253,197,67);
+}
+button:hover{
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
