@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Route, Switch} from "react-router-dom";
-import myOne from "../../pages/myOne";
-import myTwo from "../../pages/myTwo";
+import One from "../../pages/myOne";
+import Two from "../../pages/myTwo";
 import "./index.css"
 
 class Content extends Component {
@@ -9,8 +9,8 @@ class Content extends Component {
     return (
         <main className="content">
           <Switch>
-            <Route path="/one" component={myOne}></Route>
-            <Route path="/two" component={myTwo}></Route>
+            <Route path="/one" component={One}></Route>
+            <Route path="/two" component={Two}></Route>
           </Switch>
         </main>
     );

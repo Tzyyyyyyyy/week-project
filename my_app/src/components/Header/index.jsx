@@ -12,7 +12,7 @@ class Header extends Component {
                 <Link to="/one">计算器</Link>
               </li>
               <li className="nav__item">
-                <Link to="/two">航班地图</Link>
+                <Link to="/two">广告</Link>
               </li>
             </ul>
           </nav>
